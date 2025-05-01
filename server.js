@@ -18,7 +18,7 @@ let lastLink = null;
 
 async function buscarLink() {
   try {
-    const url = 'http://lexus.hubns.top:80/live/Leonardo77/983469871/1257207';
+    const url = 'http://lexus.hubns.top:80/series/Leonardo77/983469871/';
     const { data } = await axios.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
 
     const $ = cheerio.load(data);
